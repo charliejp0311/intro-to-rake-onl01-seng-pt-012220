@@ -10,7 +10,7 @@ desc 'outputs hello to the terminal'
   end
 end
 task :console do
-
+  Pry.start
 end
 task :environment do
   require_relative './config/environment'
